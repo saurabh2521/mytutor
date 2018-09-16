@@ -1,0 +1,245 @@
+﻿body {
+}
+* {
+    margin:0px;
+   
+}
+
+.header {
+    height:150px;
+    width:100%;
+    background-color:#ff6a00;
+
+}
+.logo {
+    position:absolute;
+    top:5px;
+    left:10px;
+}
+.title {
+    padding-top:30px;
+    text-align:center;
+    font-family:monospace;
+    font-family:'Comic Sans MS';
+    
+}
+.subtitle {
+    text-align:center;
+}
+.number {
+    font-size:40px;
+    margin-top:-60px;
+    padding-right:30px;
+    float:right;
+}
+.icon {
+   content: url(icon.png);
+   float:right;
+   margin-right:310px;
+   margin-top:-48px;
+   height:30px;
+}
+
+ul {
+    list-style-type:none;
+    background-color:green;
+    overflow:hidden;
+}
+li {
+    float:left;
+    
+    
+    
+}
+  li a {
+        display:block;
+        text-align:center;
+        color:white;
+        padding:14px 20px;
+        text-decoration:none;
+        font-size:20px;
+        font-weight:bold;
+        word-spacing:2px;
+        
+    }
+.nav a:hover {
+    background-color:red;
+    height:28px;
+}
+.tutor1 {
+    
+    float:right;
+    margin-left:235px;
+    font-size:25px;
+}
+.tutor2 {
+    
+    float:left;
+    margin-left:10px;
+    font-size:25px;
+}
+ .navbar li a {
+        display:block;
+        text-align:center;
+        color:white;
+        padding:14px 20px;
+        margin-left:20px;
+        text-decoration:none;
+        font-size:20px;
+        font-weight:bold;
+        word-spacing:0px;
+        
+    }
+.parallax {
+    height:500px;
+    width:100%;
+    background-attachment:fixed;
+    background-image:url(backgroundnew.jpg);
+    
+    opacity:0.4;
+    
+}
+
+.para {
+    position:absolute;
+    margin-top:-500px;
+}
+.parallax-h {
+    padding-top:120px;
+    padding-left:460px;
+    color:#b00;
+}
+.form {
+    height:60px;
+    width:700px;
+    margin-top:40px;
+    margin-left:300px;
+    text-align:center;
+    padding-top:20px;
+    background-color:rgba(0,0,0,0.6);
+}
+span {
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    
+}
+input {
+    height:25px;
+    width:300px;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    
+}
+button {
+    margin-left:10px;
+    height:30px;
+    background-color:#0f74e1;
+    color:white;
+    border:none;
+
+}
+.parallax-h:after {
+    content:"";
+    animation: parallax-h 5s linear infinite;
+}
+@keyframes parallax-h {
+    0% {
+        content: "Easiest Way To Find A Tutor";
+    }
+    50% {
+        content: "Make Your Grade Better";
+    }
+    100% {
+        content: "Find A Better Option For You";
+    }
+
+}
+
+.how {
+    height:500px;
+    width:100%;
+    text-align:center;
+   
+    
+}
+    .how h1 {
+        text-decoration:underline;
+        padding-top:100px;
+    }
+    .how h3 {
+        padding-top:15px;
+        text-decoration:none;
+
+    }   
+.step {
+    text-align:justify;
+}
+
+
+.col {
+    height:220px;
+    width:30%;
+    /*background-color:red;*/
+    display:block;
+    float:left;
+    /*border:1px solid black;*/
+    margin:20px;
+}
+    .col p {
+        padding-top:10px;
+    }
+    .pic {
+    height:200px;
+    width:100%;
+    background-color:black;
+    color:white;
+    
+}
+.footer1 {
+    width:30%;
+    text-align:justify;
+    font-weight:bold;
+    font-size:20px;
+    line-height:25px;
+    display:block;
+    float:left;
+    padding:10px;
+    position:relative;
+    left:160px;
+
+}
+    .footer1 p {
+        padding-top:20px;
+    }
+    .footer1 h4 {
+        line-height:5px;
+    }
+.footer2 {
+    width:25%;
+    text-align:center;
+    padding-top:30px;
+    padding-left:0px;
+    display:block;
+    float:left;
+    
+}
+.footer3 {
+   width:30%;
+    padding-top:30px;
+    display:block;
+    float:left;
+    position:relative;
+    left:100px;
+}
+    .footer3 h4 {
+
+        position:relative;
+        left:50px;
+        top:-5px;
+    }
+img {
+    height:100px;
+
+}

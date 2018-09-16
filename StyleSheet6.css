@@ -1,0 +1,246 @@
+﻿
+body {
+  
+}
+* {
+    margin:0px;
+   
+}
+
+.header {
+    height:150px;
+    width:100%;
+    background-color:#ff6a00;
+
+}
+.title {
+    padding-top: 30px;
+    text-align: center;
+    font-family: monospace;
+    font-family: 'Comic Sans MS';
+    word-spacing: 3px;
+}
+    
+.subtitle {
+    text-align:center;
+}
+.number {
+    font-size:40px;
+    margin-top:-60px;
+    padding-right:30px;
+    float:right;
+}
+.icon {
+   content: url(icon.png);
+   float:right;
+   margin-right:300px;
+   margin-top:-52px;
+   height:40px;
+}
+
+ul {
+    list-style-type:none;
+    background-color:green;
+    overflow:hidden;
+}
+li {
+    float:left;
+    
+    
+    
+}
+   li a {
+        display:block;
+        text-align:center;
+        color:white;
+        padding:14px 20px;
+        text-decoration:none;
+        font-size:20px;
+        font-weight:bold;
+        word-spacing:2px;
+        
+    }
+li a:hover {
+    background-color:red;
+
+}
+.tutor1 {
+    
+    float:right;
+    margin-left:235px;
+    font-size:25px;
+}
+.tutor2 {
+    
+    float:left;
+    margin-left:10px;
+    font-size:25px;
+}
+.box {
+    height:700px;
+    width:900px;
+    border:1px solid;
+    margin-top:50px;
+    margin-left:200px;
+    background-color:white;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 50px auto;
+  font-family: Raleway;
+  padding: 10px;
+  width: 880px;
+  min-width: 300px;
+  background-color:white;
+}
+
+h1 {
+  text-align: center;  
+  padding-top:10px;
+}
+
+input {
+  margin-top:7px;
+  padding: 10px;
+  width: 97%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+ /*Mark input boxes that gets an error on validation:*/ 
+input.invalid {
+  background-color: #ffdddd;
+}
+
+ /*Hide all steps by default:*/ 
+.tab {
+  display: none;    
+  
+}
+.label {
+    height:50px;
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    line-height:60px;
+}
+
+button {
+  margin-top:30px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+ /*Make circles that indicate the steps of the form:*/ 
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+ /*Mark the steps that are finished and valid:*/ 
+.step.finish {
+  background-color: #4CAF50;
+}
+.gender {
+    font-weight:bold;
+    margin-left:0px;
+    display:inline;
+
+}
+input[type="radio"] {
+    
+    width:50px;
+    display:inline;
+    background-color:red;
+    
+}
+input[type=checkbox] {
+    width:40px;
+    
+}
+.listbox {
+    display:inline-block;
+    width:400px;    
+    margin-left:20px;
+    
+}
+
+.listheading {
+    text-decoration:none;
+   color:black;
+   font-weight:bold;
+   line-height:30px;
+   position:relative;
+   top:20px;
+}
+.sublistheading {
+    text-decoration:none;
+    color:black;
+    line-height:30px;
+    position:relative;
+    top:20px;
+    left:15px;
+}
+.elabel, .elabel1 {
+    margin-top:30px;
+    margin-left:20px;
+    display:inline-block;
+}
+.elabel1 {
+    margin-left:60px;
+}
+.elabel input {
+    width:100px;
+}
+   .elabel1 input {
+        width:150px;
+    }
+#education button {
+    background-color:#2d37a8;
+    display:block;
+    margin:30px auto;
+}
+#epanel {
+    display:none;
+    
+}
+.yourself {
+    display:block;
+    margin:auto;
+    height:100px;
+    width:500px;
+    text-align:center;
+}
+textarea {
+    display:block;
+    height:200px;
+    width:600px;
+    margin:auto;
+    padding:10px;
+}

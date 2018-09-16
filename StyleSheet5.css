@@ -1,0 +1,150 @@
+﻿body {
+}
+* {
+    margin:0px;
+   
+}
+
+.header {
+    height:150px;
+    width:100%;
+    background-color:#ff6a00;
+
+}
+.title {
+    padding-top: 30px;
+    text-align: center;
+    font-family: monospace;
+    font-family: 'Comic Sans MS';
+    word-spacing: 3px;
+}
+    
+.subtitle {
+    text-align:center;
+}
+.number {
+    font-size:40px;
+    margin-top:-60px;
+    padding-right:30px;
+    float:right;
+}
+.icon {
+   content: url(icon.png);
+   float:right;
+   margin-right:300px;
+   margin-top:-52px;
+   height:40px;
+}
+
+ul {
+    list-style-type:none;
+    background-color:green;
+    overflow:hidden;
+}
+li {
+    float:left;
+    
+    
+    
+}
+    a {
+        display:block;
+        text-align:center;
+        color:white;
+        padding:14px 20px;
+        text-decoration:none;
+        font-size:20px;
+        font-weight:bold;
+        word-spacing:2px;
+        
+    }
+li a:hover {
+    background-color:red;
+
+}
+.tutor1 {
+    
+    float:right;
+    margin-left:235px;
+    font-size:25px;
+}
+.tutor2 {
+    
+    float:left;
+    margin-left:10px;
+    font-size:25px;
+}
+.parallax {
+    height:550px;
+    width:100%;
+    background-attachment:fixed;
+    background-image:url(backgroundnew.jpg);
+    
+    opacity:0.4;
+    
+}
+
+
+
+.pic {
+    height: 250px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+.footer1 {
+    width:30%;
+    text-align:center;
+    padding-left:80px;
+    padding-top:50px;
+    display:block;
+    float:left;
+
+}
+    .footer1 p {
+        padding-top:20px;
+    }
+    .footer1 h4 {
+        line-height:5px;
+        
+    }
+.footer2 {
+    width:30%;
+    text-align:center;
+    padding-top:50px;
+    padding-left:200px;
+    display:block;
+    float:left;
+    
+}
+.footer2 h2 {
+    -webkit-text-stroke:1px red;
+}
+.becometutor {
+    height:200px;
+    width:400px;
+    color: green;
+    position: absolute;
+    top:350px;
+    left:450px;
+    text-align:center;
+    
+}
+    .becometutor input {
+        margin-top:20px;
+        line-height:30px;
+        width:350px;
+    }
+    .becometutor button {
+        width:150px;
+        height:40px;
+        margin-top:20px;
+        background-color:lightblue;
+    }
+#button {
+    display:block;
+    margin:15px auto;
+    height:50px;
+    width:200px;
+    background-color:blue;
+}

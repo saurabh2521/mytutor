@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<?php
+header('Access-Control-Allow-Origin: *'); 
+?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet5.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">CallMyHomeTutor.com</h1>
+        <h3 class="subtitle">Any Where. Any Class. Any Subject</h3>
+        <h1 class="number">+91 9560806929</h1><span class="icon"></span>
+    </div> 
+    
+    <Nav>
+        <ul>
+            <li><a href="HtmlPage1.html">Home</a></li>
+            <li><a href="HtmlPage2.html">About Us</a></li>
+            <li><a href="HtmlPage3.html">Term and conditions</a></li>
+            <li><a href="HtmlPage4.html">Contact Us</a></li>
+            <li><a href="#" class="tutor1">Become a Tutor</a></li>
+            <li><a href="HtmlPage7.html" class="tutor2">Book a Tutor</a></li>
+        </ul>
+    </Nav>
+    <div class="parallax"></div>
+        <div class="becometutor">
+            <div>
+                <h2>APPLY NOW</h2>dfkjjfkd
+                <form>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter Your Name"/><br />
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter Your Mobile Number" /><br /> 
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email"/><br />
+                    <!--<input type="checkbox" /><br />
+                    <span class="terms">I accept all terms & conditions</span><br />-->
+                    <!--<button>SUBMIT</button><br /> -->  
+                    <button id="button" name="submit" onclick="abc()" type="button">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+    
+
+        
+    
+   
+    
+    <div class="pic">
+        <div class="footer1">
+        <h2>CallMyHomeTutor.com</h2>
+        <h4>AnyClass.AnySubject.Anywhere</h4>
+        <p>To provide the most transparent, honest and efficient services for prospective students and to represent a highly qualified teacher with a commitment to excellence.</p>
+        </div>
+         <div class="footer2">
+        <h2>Area of Work</h2>
+             <h3>Delhi</h3>
+             <h3>Gurgaon</h3>
+             <h3>Faridabad</h3>
+             <h3>Noida</h3>
+             <h3>Ghaziabad</h3>
+        </div>
+    </div>
+
+     <script>
+         function abc() {
+             var firstname, lastname, email;
+             var a = document.getElementById("firstname").value;
+             var b = document.getElementById("lastname").value;
+             var c = document.getElementById("email").value;
+             $.ajax({
+                 data: { firstname: a, lastname: b, email: c },
+                 url: 'http://localhost/database.php',
+                 method: 'POST', // or GET
+                 success: function (msg) {
+                     alert(msg);
+                 },
+                 error: function (msg) {
+                 alert(msg);
+             }
+             });
+
+         }
+    </script>
+
+
+</body>
+</html>
